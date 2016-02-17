@@ -1,0 +1,274 @@
+body {
+	width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-width {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h1 a {
+	font-size: 14px;
+    color: white;
+}
+
+h1 span {
+    color: rgb(50, 198, 172);
+}
+
+h1 a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav {
+    background-color: black;
+    height: 28px;
+    padding-top: 12px;
+}
+
+nav a {
+    margin-top: 10px;
+}
+
+.logo {
+	text-decoration: none;
+    float: left;
+}
+
+#navigation {
+   float: right;
+}
+
+#navigation ul {
+	list-style-type: none;
+    
+}
+
+#navigation li {
+     display: inline-block;
+}
+
+#navigation li a{
+    text-decoration: none;
+	color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+/* end of navigation styles */
+
+
+/* slider CSS */
+
+#slider {
+    background-color: white;
+    height: 500px;
+}
+
+.chair-img {
+    display: inline-block;
+    height: 400px;
+    width: 550px;
+    background-image: url(img/black_chair.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 20px 0 0 0;
+}
+
+.title {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    word-spacing: 8px;
+    text-align: center;
+}
+
+h2 span {
+    color: rgb(50, 198, 172);
+    font-weight: 600;
+}
+
+.title p {
+    margin: 30px 0 0 0;
+    text-align: center;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.title button {
+    background-color: rgb(50, 198, 172);
+    padding: 10px 50px 10px 50px;
+    margin: 30px 0 0 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+/* END OF SLIDER SECTION CSS */
+
+/* BOX SLIDER CSS */
+
+.box-slider {
+    margin: 0 0 80px 0;
+}
+
+#box-one {
+    vertical-align: top;
+    display: inline-block;
+    height: 220px;
+    width: 330px;
+    background-image: url(img/box1_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 30px 0 0;
+}
+
+#box-two {
+    vertical-align: top;
+    display: inline-block;
+    height: 220px;
+    width: 330px;
+    background-image: url(img/box2_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#box-three {
+    display: inline-block;
+    height: 250px;
+    width: 330px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin: 0 0 0 30px;
+}
+
+.box-bg {
+    width: 330px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 140px;
+}
+
+.title-border {
+    width: 145px;
+}
+
+h3 {
+    font-weight: bold;
+    border-bottom: 5px solid rgb(50, 198, 172);
+}
+
+/* END OF BOX - SLIDER SECTION CSS */
+
+/* PRICES */
+
+.prices {
+    background-color: rgb(240,241,242);
+    
+}
+
+.priceBox {
+    width: 330px;
+    height: 500px;
+    background-color: rgb(248, 249, 250);
+    display: inline-block;
+    margin: 150px 14px 60px 14px;
+    border: 2px rgb(193, 194, 195) solid;
+    text-align: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(193, 194, 195);
+    border: 8px solid #fff;
+    box-shadow: 0 0 0 2px rgb(193, 194, 195);
+    margin: -30px auto 20px auto;
+}
+
+h4 {
+    color: rgb(50, 198, 172);
+    font-size: 22px;
+}
+
+.priceCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px rgb(193, 194, 195) solid;
+    margin: 20px auto 30px auto;
+}
+
+.priceCircleText {
+    margin: 20px 0 0 0;
+    font-size: 45px;
+    color: rgb(193, 194, 195);
+    font-weight: bold;
+}
+
+.priceCircle p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(193, 194, 195);
+}
+
+.description {
+    width: 330px;
+    padding: 10px 0 10px 0; 
+}
+
+.descriptionGrey {
+    background-color: rgb(193, 194, 195);
+    color: rgb(248, 249, 250);
+}
+
+.descriptionWhite {
+    background-color: rgb(248, 249, 250);
+    color: rgb(193, 194, 195);
+
+}
+
+.joinButton {
+    margin: 170px 0 0 0;
+}
+
+.joinButton a {
+    color: white;
+    background: rgb(50, 198, 172);
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
